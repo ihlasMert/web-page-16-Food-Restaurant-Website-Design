@@ -233,3 +233,10 @@ section {
   display: flex;
   flex-wrap: wrap;
 }
+.footer{
+  padding: 10px 0;
+
+}
+.col{
+  width: 25%;
+}
