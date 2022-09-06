@@ -191,3 +191,45 @@ section {
   right: 0;
   padding: 17px 10px;
 }
+
+.service-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+  grid-gap: 1.5rem;
+  margin-top: 4rem;
+}
+
+.s-box {
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.s-box img {
+  width: 90px;
+}
+.s-box h3 {
+  margin: 4px 0 10px;
+  color: var(--main-color);
+  font-size: 1.2rem;
+}
+.s-box p {
+  line-height: 1.7;
+}
+
+.cta {
+  background-color: #feeee7;
+  padding: 70px 0;
+  text-align: center;
+  width: 66%;
+  margin: 100px auto;
+  border-radius: 10px;
+}
+.cta h2{
+  font-size: 2rem;
+  color: var(--bg-color);
+  margin-bottom: 30px;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+}
